@@ -10,6 +10,15 @@ une fois l'acquisition des données OK, les données sont envoyées à un serveu
 
 la partie Backend permet de gérer l'acquisition des données ainsi que la gestion des notifications.
 
+# Fonctionnalités
+
+<p>Alerte Mail lors d'un essaimage.</p>
+<p>Alerte Mail lors du soulevement d'une ruche (A venir).</p>
+<p>Alerte mail lors d'atteinte d'un poids trop faible.</p>
+<p>Alerte mail lorsqu'une hausse est pleine.</p>
+<p>Alerte miéllée en cours</p>
+
+indicateurs de progression de miellé sur 7 jours glissants
 
 # Le matériel 
 
@@ -24,7 +33,7 @@ HBM PW2C : capteur de poids
 DHT22 : Capteur de temperature
 
 
-# Schéma :
+# Schéma Arduino:
 
 <img src="Backend/images/Projet_Global_Sigfox_mega_schma.png"/>
 
