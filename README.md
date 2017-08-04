@@ -14,10 +14,15 @@ la partie Backend permet de gérer l'acquisition des données ainsi que la gesti
 # Le matériel 
 
 Arduino Mega : microcontrolleur 
+
 DS3231 : Horloge RTC avec fonction d'alarme pour réveil et mise en veille de l'arduino.
+
 HX711 : amplificateur pour les balances
+
 HBM PW2C : capteur de poids
+
 DHT22 : Capteur de temperature
+
 
 # Schéma :
 
