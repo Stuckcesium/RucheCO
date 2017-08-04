@@ -1,5 +1,4 @@
 # RucheCO
-Ruches connectées avec balance et transmission via réseau SIGFOX
 
 Projet de balances connectées pour le pesage de ruches, transmission des données toutes les 25 min via le réseau Sigfox, 
 
@@ -20,6 +19,7 @@ la partie Backend permet de gérer l'acquisition des données, la gestion des no
 <p>Alerte miéllée en cours</p>
 
 <b>Les fonctionnalitées de l'interface utilisateur : </b>
+
 indicateurs de progression de miellée sur 7 jours glissants
 
 Graphique poids
@@ -34,7 +34,7 @@ Exemple de l'interface ici : http://agarde.hd.free.fr/form/index.php?rucheid=1
 
 # Le matériel 
 
-Arduino Mega : microcontrolleur 
+Arduino Mega : Microcontrolleur 
 
 DS3231 : Horloge RTC avec fonction d'alarme pour réveil et mise en veille de l'arduino.
 
@@ -52,9 +52,9 @@ DHT22 : Capteur de temperature
 # Le backend:
 <b>à heberger sur un serveur WEB</b>
 
-<b>Dossier WS : </b> le fichier get.php agit comme webservice pour le callback SigFox
+<b>Dossier WS : </b> Le fichier get.php agit comme webservice pour le callback SigFox
 
-<b>Dossier UI : </b> interface utilisateur 
+<b>Dossier UI : </b> Interface utilisateur 
 
 <b>Dossier BDD : </b> Script SQL pour créer la base de données
 
