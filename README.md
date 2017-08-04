@@ -26,4 +26,6 @@ DHT22 : Capteur de temperature
 
 # Schéma :
 
+<img src="Backend/images/Projet_Global_Sigfox_mega_schma.png"/>
+
 
