@@ -28,13 +28,13 @@ while ($rucheid <= $nbmaxruche) {
 
 			updateNotifDate ($rucheid, $txtnotification);
 
-			$to = 'perso.agarde@gmail.com'; // Déclaration de l'adresse de destination.
+			$to = 'mail@mail.com'; // Déclaration de l'adresse de destination.
 
 			$subject = '[Alerte Rucher] Poids faible ruche : '.$rucheid.'';
 			$msg = "Poids faible pour la ruche : $rucheid \n ";
 			$msg .= "poids = $lastweight kg \n";
 
-			$headers = 'From: Rucher <chamboeufhb@free.fr>'."\r\n";
+			$headers = 'From: Rucher <mail@mail.com>'."\r\n";
 			$headers .= "\r\n";
 
 			mail($to, $subject, $msg, $headers);

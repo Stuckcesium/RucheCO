@@ -186,13 +186,13 @@ function check_essaimage($rucheid, $actualweight, $txtnotification, $periode){
 
 			updateNotifDate ($rucheid, $txtnotification);
 
-			$to = 'perso.agarde@gmail.com'; // Déclaration de l'adresse de destination.
+			$to = 'mail@mail.com'; // Déclaration de l'adresse de destination.
 
 			$subject = '[Alerte Rucher] Essaimage ruche : '.$rucheid.'';
 			$msg = "Essaimage pour la ruche : $rucheid \n ";
 			$msg .= "Ancien poids = $lastweight kg, Nouveau poids = $actualweight kg \n";
 
-			$headers = 'From: Rucher <chamboeufhb@free.fr>'."\r\n";
+			$headers = 'From: Rucher <mail@mail.com>'."\r\n";
 			$headers .= "\r\n";
 
 			mail($to, $subject, $msg, $headers);
