@@ -58,3 +58,11 @@ DHT22 : Capteur de temperature
 
 <b>Dossier BDD : </b> Script SQL pour créer la base de données
 
+<b>Sigfox et callBack : </b>
+
+
+<p>custo payload Sigfox : <code> trame::int:8 temp::int:16:little-endian humidity::uint:16:little-endian w1::uint:16:little-endian w2::uint:16:little-endian w3::uint:16:little-endian </code></p>
+
+Url pattern :
+
+http://yourserver/get.php?trame={customData#trame}&w1={customData#w1}&w2={customData#w2}&w3={customData#w3}&humidity={customData#humidity}&temp={customData#temp}
