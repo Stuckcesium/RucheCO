@@ -7,7 +7,7 @@
 		<meta charset="utf-8">
 		<title>Ruche <?php echo $rucheid; ?></title>
 		<meta name="description" content="Suivi du rucher">
-		<meta name="author" content="Miron Catalin Gabriel">
+		<meta name="author" content="Aurélien GARDE">
 
 		<!-- Mobile Specific Metas-->
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
